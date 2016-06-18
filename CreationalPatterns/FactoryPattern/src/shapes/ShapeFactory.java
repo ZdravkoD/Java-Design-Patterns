@@ -6,7 +6,7 @@ public class ShapeFactory {
 	public static final String RECTANGLE = "RECTANGLE";
 	public static final String SQUARE = "SQUARE";
 	
-	public static Shape get(String shape) {
+	public Shape get(String shape) {
 		if(shape == null) {
 			return null;
 		}
