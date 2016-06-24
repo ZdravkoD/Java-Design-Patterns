@@ -10,6 +10,7 @@ public class FactoryProducerTest {
 	public void testColorFactory() {
 		AbstractFactory colorFactory = FactoryProducer.getFactory(FactoryProducer.FACTORY_COLOR);
 		assertNotNull(colorFactory);
+		assertNull(colorFactory);
 	}
 
 	@Test
